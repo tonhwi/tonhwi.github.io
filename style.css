@@ -1,5 +1,10 @@
-@import url(//fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap);
+@font-face {
+    font-family: comic;
+    src: url('../fonts comic.ttf') format("woff2");
+    font-weight: 400;
+}
+
 
 body{
-  font-family: 'Comic Neue', cursive;
+  font-family: comic;
 }
