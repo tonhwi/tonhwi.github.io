@@ -1,40 +1,46 @@
 @font-face {
-    font-family: "comic";
-    src: url('../../fonts/comici.ttf') format("truetype");
-    font-weight: 400;
+  font-family: "comic";
+  src: url('../../fonts/comici.ttf') format("truetype");
+  font-weight: 400;
 }
 
 
 #home-header{
-  font-family: "comic", sans-serif;
-  display: inline-block;
-  vertical-align: middle;
-  line-height:1.5;
-  padding-top: 2rem;
-  padding-bottom:2rem;
-  max-width:100%;
+font-family: "comic", sans-serif;
+display: inline-block;
+vertical-align: middle;
+line-height:1.5;
+padding-top: 2rem;
+padding-bottom:2rem;
+max-width:100%;
+}
+
+
+.inline-block{
+display: inline-block
 }
 
 .flex{
-  display: flex;
+display: flex;
 }
 
 .flex-col{
-  flex-direction: column;
+flex-direction: column;
 }
 
 .text-center{
-  text-align:center;
+text-align:center;
 }
 
 .text-left{
-  text-align:left;
+text-align:left;
 }
 
 .text-right{
-  text-align:right;
+text-align:right;
 }
 
 *{
-   outline: 1px solid red !important;
+ outline: 1px solid red !important;
 }
+
