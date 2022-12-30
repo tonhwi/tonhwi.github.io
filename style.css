@@ -4,17 +4,20 @@
   font-weight: 400;
 }
 
-
 #home-header{
 font-family: "comic", sans-serif;
 display: inline-block;
-vertical-align: middle;
-line-height:1.5;
+/*vertical-align: middle;*/
+/*line-height:1.5;*/
 padding-top: 2rem;
 padding-bottom:2rem;
 max-width:100%;
 }
 
+
+.grid{
+display: grid
+}
 
 .inline-block{
 display: inline-block
@@ -40,7 +43,57 @@ text-align:left;
 text-align:right;
 }
 
-*{
- outline: 1px solid red !important;
+.container{
+width: 90%;
+margin: auto;
+border-style: dotted;
+
 }
+
+.carousel{
+width:100%;
+height: 100%;
+display: flex;
+justify-content: flex-start;
+height: 500px;
+position: relative;
+
+}
+
+
+.slider{
+display:flex;
+flex-shrink:0;
+width: 500%;
+height: 100%;
+transition: all 0.3s;
+
+}
+
+.slider section{
+display: flex; /*not sure*/
+flex-basis: 20%;
+width: 20%; /*not sure*/
+justify-content: center;
+align-items: center;
+}
+
+
+.controls .arrow{
+position: absolute;
+
+}
+
+.arrow.left{
+left: 10px;
+bottom: 220px;
+
+}
+
+.arrow.right{
+right: 10px;
+bottom: 220px;
+}
+
+
 
